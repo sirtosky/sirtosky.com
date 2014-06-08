@@ -1,0 +1,23 @@
+/* CSS Document */
+
+
+/* 720px to 959px Screen */
+@media screen and (min-width: 480px) and (max-width: 719px) {
+
+    #logo {
+        padding-left: 30px;
+        width: 300px;
+    }
+    #logo h1 a, #logo .site-name a {
+        width: 300px;
+    }
+    #top-elements .phone-number {
+        padding-left: 20px;
+		padding-top: 15px;
+        width: 440px;
+        text-align: center;
+        position: relative;
+    }
+
+}
+

@@ -1,0 +1,71 @@
+/*
+ Theme Name:   U-Design Child
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  Sirtosky Studios is based on the u-design theme.
+ Author:       Lori Stone Sirtosky
+ Author URI:   http://example.com
+ Template:     u-design
+ Version:      1.0.0
+ Tags:         light, responsive-layout, accessibility-ready
+ Text Domain:  u-design-child
+*/
+
+@import url("../u-design/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+#navigation-menu ul li {
+	text-transform:uppercase;
+}
+
+@media screen and (max-width: 719px) {
+	.menuLogoWrapper {
+		display:none;
+	}
+
+	.menuLogo {
+		position:absolute;
+		top: -600px;
+		display:none;
+		z-index: 100000;
+	}
+
+}
+
+@media screen and (min-width: 719px) {
+
+	#logo {
+		top: 20px;
+	}
+
+	.menuLogo {
+		position:absolute;
+		display:none;
+		z-index: 100000;
+	}
+
+	#menuLogoWrapper {
+		top: 60px;
+		z-index: 100000;
+		width: 920px;
+		margin: auto;
+	}	
+
+} 
+
+/* 720px to 959px Screen */
+@media screen and (min-width: 480px) and (max-width: 719px) {
+
+    #logo {
+        padding-left: 80px;
+        width: 320px;
+    }
+    #logo h1 a, #logo .site-name a {
+        width: 320px;
+    }
+
+}
+
+#feedback a.feedback {
+    background: url("styles/style1/images/questions-btn.png") no-repeat scroll 0 0 transparent;
+}
